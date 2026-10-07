@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Dheeraj Karanam — Data Scientist & Engineer. MS Data Science, Indiana University. Risk modeling, LLM applications, production data systems." />
-  <title>Dheeraj Karanam — Data Scientist & Engineer</title>
+  <meta name="description" content="Dheeraj Karanam — Data Scientist & AI Engineer. MS Data Science, Indiana University. GenAI agents, RAG systems, production data platforms." />
+  <title>Dheeraj Karanam — Data Scientist & AI Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Figtree:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=8" />
+  <link rel="stylesheet" href="style.css?v=9" />
 </head>
 <body>
 
@@ -35,14 +35,14 @@
     <div class="container hero-inner">
       <div class="hero-meta">
         <span class="meta-dot"></span>
-        <span>Available for Summer 2026 internships</span>
+        <span>Graduating May 2027 &middot; Open to full-time roles</span>
       </div>
       <h1 class="hero-title">
         From pipelines to <em>LLMs</em>.<br />
         Engineering data that <em>thinks</em>.
       </h1>
       <p class="hero-sub">
-        I build reliable data platforms and apply statistical methods to problems in finance and applied research. Currently pursuing my Masters in Data Science at Indiana University, with more than four years of prior enterprise experience at IBM and TCS.
+        I build reliable data platforms and production GenAI systems. Most recently an AI Intern at McAfee, where I shipped an agentic incident-triage pipeline on AWS Bedrock. Currently pursuing my Masters in Data Science at Indiana University, after six years of enterprise data engineering at IBM and TCS.
       </p>
       <div class="hero-actions">
         <a href="#projects" class="btn btn-primary">View selected work</a>
@@ -54,7 +54,7 @@
     </div>
     <div class="container hero-stats">
       <div class="stat">
-        <span class="stat-num">4+</span>
+        <span class="stat-num">6</span>
         <span class="stat-label">Years enterprise<br/>data engineering</span>
       </div>
       <div class="stat">
@@ -66,7 +66,7 @@
         <span class="stat-label">Tables migrated<br/>Netezza to GCP</span>
       </div>
       <div class="stat">
-        <span class="stat-num">4.0</span>
+        <span class="stat-num">3.94</span>
         <span class="stat-label">Graduate GPA<br/>Luddy, IU</span>
       </div>
     </div>
@@ -82,26 +82,26 @@
       <div class="about-grid">
         <div class="about-body">
           <p class="lede">
-            I'm a data scientist and engineer working at the intersection of statistical rigor and production systems.
+            I'm a data scientist and engineer working at the intersection of production systems and applied AI.
           </p>
           <p>
-            My four years at IBM and TCS were spent inside large retail banking and telecommunications environments, where the cost of a broken pipeline is measured in missed SLAs and downstream analytics failures. I learned to design data quality frameworks, operate batch systems on Hadoop and Spark, and run zero-downtime migrations across hundreds of workflows. That work taught me something specific: the hardest part of machine learning in industry isn't the model, it's the data plumbing around it.
+            My six years at IBM and TCS were spent inside large retail banking and telecommunications environments, where the cost of a broken pipeline is measured in missed SLAs and downstream analytics failures. I learned to design data quality frameworks, operate batch systems on Hadoop and Spark, and run large migrations across hundreds of workflows. That work taught me something specific: the hardest part of machine learning in industry isn't the model, it's the data plumbing around it.
           </p>
           <p>
-            I'm now studying Data Science at Indiana University's Luddy School, focusing on applied machine learning, inference with statistics, and computer vision. My research applies self-supervised representation learning (ResNet-18, contrastive objectives) to egocentric infant video, and a separate project with Professor Madurima benchmarks retrieval architectures for biomedical genomics question answering.
+            This past summer I was an AI Intern at McAfee, building a GenAI agent pipeline that routes Grafana alerts through AWS Lambda into Bedrock AgentCore for first-pass incident triage, with MCP servers exposing internal tooling to the agents and OPA policy checks keeping automation inside approved guardrails. I also built a SHAP-based explainability module for an LLM scam-detection classifier.
           </p>
           <p>
-            Outside of academic work, I build finance-focused portfolio projects like value-at-risk models, GARCH volatility forecasting, and RAG systems for SEC filings to bridge toward my longer-term goal of quantitative and ML work at a top financial institution.
+            At Indiana University's Luddy School I focus on applied machine learning and LLM systems. My research benchmarks RAG, CAG, and CRAG for biomedical question answering with Professor Vardhan, and I'm currently building a modular RAG pipeline for accounting document extraction with Professor Golshan, both on the BigRed200 HPC cluster.
           </p>
         </div>
         <aside class="about-side">
           <div class="side-card">
             <h3>Focus areas</h3>
             <ul>
+              <li>GenAI agents and LLM applications (RAG, MCP, LoRA)</li>
+              <li>Production data platforms and MLOps</li>
+              <li>Model evaluation and explainability</li>
               <li>Quantitative finance and risk modeling</li>
-              <li>LLM applications (RAG, LoRA, tool orchestration)</li>
-              <li>Production data platforms</li>
-              <li>Self-supervised representation learning</li>
             </ul>
           </div>
         </aside>
@@ -119,6 +119,29 @@
 
       <article class="role">
         <div class="role-meta">
+          <span class="role-period">May 2026 &mdash; Aug 2026</span>
+          <span class="role-location">Frisco, TX</span>
+        </div>
+        <div class="role-body">
+          <h3 class="role-title">AI Intern</h3>
+          <div class="role-company">McAfee</div>
+          <div class="role-sub">Platform Engineering <span>&mdash; AWS AI Frontier Agents Integration</span></div>
+          <ul class="role-bullets">
+            <li>Built a GenAI agent pipeline routing Grafana alerts through AWS Lambda into Bedrock AgentCore, automating first-pass incident triage and root cause analysis for Platform Engineering and SRE 24/7 teams.</li>
+            <li>Integrated MCP servers into the agent stack on AWS, exposing internal tooling and runbook actions to Bedrock agents as callable tools; provisioned Lambda functions, IAM roles, and DynamoDB tables as code with Terraform for repeatable deployment.</li>
+            <li>Implemented cross-account IAM role assumption and DynamoDB-based deduplication so repeated alerts resolve to a single agent invocation; enforced OPA policy checks on agent-proposed actions to keep automation inside approved guardrails.</li>
+            <li>Integrated commit-triggered AI code review into the pre-deployment path, surfacing security and code quality issues prior to merge; instrumented telemetry on agent usage to measure adoption and drive continuous prompt tuning.</li>
+          </ul>
+          <div class="role-sub">OCTO <span>&mdash; Text Scam Detector Explainability</span></div>
+          <ul class="role-bullets">
+            <li>Built a SHAP-based token-wise explanation module for an LLM scam-detection classifier, surfacing which spans of a message drove each prediction; implemented embedding-based top-k nearest neighbor retrieval to ground predictions in similar training examples.</li>
+            <li>Prototyped a Databricks-hosted application unifying multiple explanation methods for side-by-side model comparison; documented methodology and presented findings and recommendations to the team.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="role">
+        <div class="role-meta">
           <span class="role-period">Mar 2023 &mdash; Aug 2025</span>
           <span class="role-location">Hyderabad, India</span>
         </div>
@@ -126,11 +149,10 @@
           <h3 class="role-title">Data Engineer</h3>
           <div class="role-company">IBM <span class="role-client">&mdash; Barclays Retail Banking</span></div>
           <ul class="role-bullets">
-            <li>Designed and deployed scalable data quality frameworks (schema drift detection, null validation, outlier checks, row-count reconciliation) for distributed pipelines in Python and SQL; cut analyst debugging effort by 80% and established monitoring standards adopted across five teams.</li>
-            <li>Engineered batch data pipelines on Hadoop and Spark with Ab Initio, processing multi-million record retail banking datasets; built data models and Data Lake architectures with end-to-end lineage enabling downstream analytics and KPI forecasting for 5+ analytics teams.</li>
-            <li>Led zero-downtime platform migration of 108 workflows and 448 ETL jobs (Cloudera CDH to BDH, RHEL6 to RHEL8) via CI/CD pipelines; improved system performance by 25% and laid the foundation for cloud-native AWS migration.</li>
-            <li>Established data contracts and schema evolution strategies across three business units; automated Hadoop file operations with Python and Unix scripts, reducing manual effort by 75%.</li>
-            <li>Drove performance optimization through root-cause analysis, Spark job tuning, and code refactoring; collaborated cross-functionally in Agile environments to deliver production-grade systems on schedule.</li>
+            <li>Engineered and optimized batch data pipelines on Hadoop/Spark with Ab Initio processing 10M+ rows of retail banking data; built scalable data models with end-to-end data lineage for downstream analytics and ML processes consumed by 5+ teams.</li>
+            <li>Designed and deployed automated data validation and quality frameworks (schema drift, null checks, outlier detection, row-count reconciliation) in Python and SQL with unit test coverage; reduced debugging effort by 80%.</li>
+            <li>Led platform migration of 108 workflows and 448 ETL jobs (Cloudera CDH to BDH, RHEL6 to RHEL8) using CI/CD pipelines with Jenkins; improved system performance by 25%; established data contracts and schema evolution standards across 3 business units.</li>
+            <li>Collaborated cross-functionally in Agile delivery on a global banking client account, presenting pipeline architecture and data quality findings to both technical engineering teams and non-technical client stakeholders; trained and guided 6 junior engineers.</li>
           </ul>
         </div>
       </article>
@@ -144,12 +166,11 @@
           <h3 class="role-title">Associate Software Engineer</h3>
           <div class="role-company">Tata Consultancy Services <span class="role-client">&mdash; Virgin Media</span></div>
           <ul class="role-bullets">
-            <li>Architected SCD Type 1 and Type 2 temporal data models for a Netezza-to-BigQuery Lakehouse migration across 645 tables; applied schema evolution principles ensuring backward compatibility and zero data loss during production cutover.</li>
-            <li>Optimized Apache Spark SQL transformations (partition pruning, predicate pushdown, clustering rewrites) on GCP BigQuery, compressing a 14-hour batch pipeline to 12 hours.</li>
-            <li>Maintained 99% SLA and 99.5% uptime across batch and near-real-time pipelines; recovered 50+ failed critical jobs in Control-M by implementing error-handling and monitoring protocols.</li>
-            <li>Built Tableau and Power BI dashboards translating pipeline metrics into actionable insights for non-technical business leadership.</li>
-            <li>Achieved 90% F1 accuracy on an NLP chatbot (Rasa NLU/Core) with REST API integration on AWS; deployed to production and presented at client town hall, driving adoption across two additional teams.</li>
-            <li>Trained and guided six junior associates in data warehouse concepts, ETL workflow design, and production support.</li>
+            <li>Trained and deployed an NLP classification model (Rasa NLU/Core) to production at 90% F1 score, serving it via REST API on AWS with unit test coverage and post-deployment monitoring; presented results at a client town hall, driving adoption across 2 additional teams.</li>
+            <li>Architected SCD Type 1/2 temporal data models for Netezza-to-GCP BigQuery migration across 645 tables; applied schema evolution principles ensuring backward compatibility and data integrity during production cutover; delivered with Jenkins-based deployment automation.</li>
+            <li>Optimized Spark SQL transformations (partition pruning, predicate pushdown, partitioning and clustering rewrites) compressing a 14-hour pipeline to 12 hours; documented execution plan analysis and bottleneck findings for the engineering team.</li>
+            <li>Maintained 99% SLA and 99.5% uptime across batch and near-real-time pipelines; recovered 50+ failed critical jobs in Control-M by implementing error-handling and monitoring protocols ensuring business continuity.</li>
+            <li>Built Tableau and Power BI dashboards with interactive visualizations (filters, slicers, KPI measures) translating complex pipeline metrics and data quality findings into actionable insights for non-technical business leadership.</li>
           </ul>
         </div>
       </article>
@@ -173,12 +194,12 @@
           <div class="project-head">
             <span class="project-tag">LLM · RAG · Fine-tuning</span>
             <h3 class="project-title">Financial Insight System</h3>
-            <p class="project-blurb">Portfolio analytics platform combining RAG retrieval, LoRA-fine-tuned narrative generation, and MCP tool orchestration for SEC filing analysis.</p>
+            <p class="project-blurb">Financial document analysis platform combining RAG retrieval, LoRA-fine-tuned narrative generation, and MCP tool orchestration.</p>
           </div>
           <ul class="project-bullets">
-            <li>Built an end-to-end pipeline ingesting and parsing financial documents (JSON, PDF) with schema-aligned extraction, confidence scoring, and data quality validation across SEC filings.</li>
-            <li>Benchmarked retrieval approaches (dense embeddings vs. TF-IDF) for response accuracy and inference stability; integrated MCP for tool-augmented query resolution.</li>
-            <li>Developed a FastAPI backend and evaluation dashboard tracking retrieval accuracy and output quality metrics (BERTScore, F1).</li>
+            <li>Built an end-to-end data ingestion and curation pipeline processing 500+ financial documents (PDF, JSON unstructured data) with a vector database for retrieval; implemented ML-based filtering, schema-aligned extraction, confidence scoring, and data quality validation for LLM consumption.</li>
+            <li>Orchestrated multi-step agentic workflows through MCP tool calling.</li>
+            <li>Built a QA dashboard (FastAPI) tracking output quality (BERTScore, F1), model latency, and data drift; delivered with unit-tested code, Git version control, and runbook-style documentation.</li>
           </ul>
           <div class="project-tech">
             <span>Python</span><span>FastAPI</span><span>PyTorch</span><span>LoRA</span><span>MCP</span><span>HuggingFace</span>
@@ -216,17 +237,34 @@
           <div class="project-head">
             <span class="project-tag">Research · NLP · Biomedical</span>
             <h3 class="project-title">CAG vs RAG Evaluation Framework</h3>
-            <p class="project-blurb">End-to-end evaluation pipeline comparing three retrieval architectures for information extraction from medical genomics documents.</p>
+            <p class="project-blurb">LLM-based evaluation framework benchmarking three retrieval architectures for biomedical question answering across open-weight models.</p>
           </div>
           <ul class="project-bullets">
-            <li>Designed a reproducible benchmarking framework comparing RAG, CAG, and CRAG across transformer-based models; implemented confidence scoring, hallucination rate measurement, and automated validation.</li>
-            <li>Executed on BigRed200 HPC (SLURM, A100 GPUs) using LangChain, FAISS, and HuggingFace Transformers with consistent data quality controls across all model outputs.</li>
-            <li>Conducted under the guidance of Professor Madurima at Indiana University.</li>
+            <li>Built an evaluation framework (LangChain, FAISS vector store) benchmarking RAG, CAG, and CRAG on a biomedical question-answering benchmark across Llama 3.1, OpenBioLLM, and BioMistral; RAG outperformed both CAG and CRAG on BERTScore and Token F1.</li>
+            <li>Profiled all three engines on BigRed200 HPC (SLURM, A100 GPUs); characterized the latency vs accuracy trade-off, with CAG substantially reducing latency at the cost of lower Token F1.</li>
+            <li>Delivered a reproducible benchmarking framework with consistent data quality controls, under the guidance of Professor Vardhan at Indiana University.</li>
           </ul>
           <div class="project-tech">
-            <span>LangChain</span><span>FAISS</span><span>HuggingFace</span><span>SLURM</span><span>A100 GPUs</span>
+            <span>LangChain</span><span>FAISS</span><span>Llama 3.1</span><span>BioMistral</span><span>SLURM</span><span>A100 GPUs</span>
           </div>
           <span class="project-note">Research project &middot; IU</span>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <span class="project-tag">LLM · RAG · Document AI</span>
+            <h3 class="project-title">Modular RAG Pipeline</h3>
+            <p class="project-blurb">Configurable retrieval pipeline that turns long accounting and financial filings into structured, analysis-ready output.</p>
+          </div>
+          <ul class="project-bullets">
+            <li>Building a modular RAG pipeline that ingests long accounting and financial filings (PDF, text), performs context-aware chunking, retrieval, and aggregation within model context limits, and emits structured JSON/tabular output for downstream analysis.</li>
+            <li>Architecting the system around swappable components (input source, prompt template, output schema) so pipelines reconfigure without touching core code.</li>
+            <li>Running experiments on IU BigRed200 HPC (SLURM, A100 GPUs), under the guidance of Professor Golshan at Indiana University.</li>
+          </ul>
+          <div class="project-tech">
+            <span>Python</span><span>LangChain</span><span>Vector Search</span><span>Structured Output</span><span>SLURM</span>
+          </div>
+          <span class="project-note">Research project &middot; In progress &middot; IU</span>
         </article>
 
         <article class="project">
@@ -265,7 +303,7 @@
         <article class="edu">
           <div class="edu-period">Aug 2025 &mdash; May 2027</div>
           <h3 class="edu-school">Indiana University Bloomington</h3>
-          <div class="edu-degree">M.S. in Data Science</div>
+          <div class="edu-degree">M.S. in Data Science &middot; GPA 3.94/4.0</div>
           <div class="edu-dept">Luddy School of Informatics, Computing, and Engineering</div>
           <div class="edu-courses">
             Applied Machine Learning · Inference with Statistics · Computer Vision
@@ -275,7 +313,7 @@
         <article class="edu">
           <div class="edu-period">Aug 2015 &mdash; Apr 2019</div>
           <h3 class="edu-school">Andhra University</h3>
-          <div class="edu-degree">B.Tech, Electronics and Communication Engineering</div>
+          <div class="edu-degree">B.E. in Electronics &amp; Communication Engineering</div>
           <div class="edu-dept">College of Engineering, Visakhapatnam</div>
         </article>
       </div>
@@ -295,27 +333,27 @@
         <div class="skills-grid">
           <div class="skill-group">
             <h4>Programming</h4>
-            <p>Python (Pandas, NumPy, SciPy, FastAPI), SQL, R</p>
+            <p>Python (NumPy, Pandas, FastAPI, pytest), SQL, R</p>
           </div>
           <div class="skill-group">
-            <h4>ML &amp; AI</h4>
-            <p>PyTorch, Scikit-learn, XGBoost, HuggingFace, RAG, LoRA, LLM APIs</p>
+            <h4>LLMs &amp; GenAI</h4>
+            <p>LangChain, Model Context Protocol (MCP), RAG, Vector Databases (FAISS), GenAI Applications &amp; Agents, Prompt Engineering, LLM APIs (Anthropic, OpenAI, HuggingFace), LoRA</p>
           </div>
           <div class="skill-group">
-            <h4>Data Engineering</h4>
-            <p>Apache Spark/PySpark, Airflow, SCD Type 1/2 modeling, Data Quality &amp; Reconciliation, ETL/ELT, Data Lineage</p>
+            <h4>Machine Learning</h4>
+            <p>Scikit-learn, PyTorch, XGBoost, Statistical Analysis, Feature Engineering, Model Evaluation, SHAP</p>
           </div>
           <div class="skill-group">
-            <h4>Platforms</h4>
-            <p>Databricks, Snowflake, BigQuery, AWS, GCP, Kafka, Iceberg</p>
+            <h4>Software &amp; MLOps</h4>
+            <p>Git, CI/CD (Jenkins), REST APIs &amp; Microservices, Docker, Airflow, MLflow, Databricks, Apache Spark / PySpark, Agile / Jira</p>
           </div>
           <div class="skill-group">
-            <h4>ETL &amp; Databases</h4>
-            <p>Ab Initio, Informatica, Oracle, Teradata, Netezza, Hive, HDFS</p>
+            <h4>Cloud &amp; Data</h4>
+            <p>AWS (Lambda, Bedrock, IAM, DynamoDB), GCP, BigQuery, PostgreSQL, Hadoop, Hive</p>
           </div>
           <div class="skill-group">
-            <h4>Engineering</h4>
-            <p>CI/CD, Git, Docker, Linux/Unix, Control-M, Jira, Agile</p>
+            <h4>Analytics &amp; Domain</h4>
+            <p>Business Analytics, Data Quality &amp; Validation, Tableau, Power BI, Matplotlib, Seaborn &middot; Financial Services (Retail Banking, Risk &amp; Portfolio Analysis)</p>
           </div>
         </div>
       </div>
@@ -332,7 +370,7 @@
       <div class="contact-grid">
         <div class="contact-lede">
           <h3>Let's talk.</h3>
-          <p>I'm actively interviewing for Summer 2026 internships in data science, machine learning, and quantitative roles. Open to referrals, research collaborations, and conversations about applied ML in finance.</p>
+          <p>I graduate in May 2027 and am actively interviewing for full-time roles in data science, machine learning, and AI engineering. Open to referrals, research collaborations, and conversations about production GenAI systems and applied ML in finance.</p>
         </div>
         <ul class="contact-list">
           <li>
